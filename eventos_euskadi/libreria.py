@@ -1,3 +1,10 @@
+import requests
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+
+
 def descargar_datos(api_url):
     
     response = requests.get(api_url)

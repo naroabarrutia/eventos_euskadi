@@ -1,1 +1,1 @@
-from eventos_euskadi.libreria import descargar_datos, info_eventos, datos_año, descargar
+from eventos_euskadi.eventos_euskadi import datos_api, info_eventos, datos_año, descargar

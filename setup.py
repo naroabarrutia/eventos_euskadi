@@ -14,8 +14,7 @@ setup(
   url = 'https://github.com/naroabarrutia/eventos_euskadi',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/naroabarrutia/eventos_euskadi/archive/refs/tags/v_1.2.tar.gz',    # I explain this later on
   keywords = ['EVENTOS', 'EUSKADI', 'OPENDATA'], # Keywords that define your package best
-  long_description=long_description,
-  long_description_content_type="text/markdown",   
+  long_description=long_description,  
   install_requires=[            # I get to this in a second
           'requests',
           'pandas',

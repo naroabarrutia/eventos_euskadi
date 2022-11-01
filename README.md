@@ -23,6 +23,11 @@ Se han creado diversas funciones con el fin de facilitar a los usuarios la inter
 
 ## Estructura de archivos 
 ```sh
+ejemplos 
+    datos_año.JPG
+```
+
+```sh
 eventos_euskadi
     eventos_euskadi.py
     __init__.py
@@ -69,8 +74,7 @@ datos_año(2021, True)
 [MIT]
 
 ## Autores 
->Mikel Madariaga 
->Naroa Barrutia 
+>Mikel Madariaga & Naroa Barrutia 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen)
 

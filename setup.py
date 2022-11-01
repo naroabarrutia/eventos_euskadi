@@ -1,15 +1,21 @@
 from distutils.core import setup
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
+
 setup(
   name = 'eventos_euskadi',         # How you named your package folder (MyLib)
   packages = ['eventos_euskadi'],   # Chose the same as "name"
-  version = '1.1',      # Start with a small number and increase it with every change you make
+  version = '1.2',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'Trabajando con eventos culturales en Euskadi',   # Give a short description about your library
+  description = 'Información y análisis de eventos culturales de Euskadi.',   # Give a short description about your library
   author = 'Mikel Madariaga & Naroa Barrutia',                   # Type in your name
   author_email = 'naroa.barrutia@alumni.mondragon.edu',      # Type in your E-Mail
   url = 'https://github.com/naroabarrutia/eventos_euskadi',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/naroabarrutia/eventos_euskadi/archive/refs/tags/v_1.1.tar.gz',    # I explain this later on
-  keywords = ['EVENTOS', 'EUSKADI', 'OPENDATA'],   # Keywords that define your package best
+  download_url = 'https://github.com/naroabarrutia/eventos_euskadi/archive/refs/tags/v_1.2.tar.gz',    # I explain this later on
+  keywords = ['EVENTOS', 'EUSKADI', 'OPENDATA'], # Keywords that define your package best
+  long_description=long_description,
+  long_description_content_type="text/markdown",   
   install_requires=[            # I get to this in a second
           'requests',
           'pandas',

@@ -56,16 +56,16 @@ setup.py
 
 ## Uso
 ```python
-import eventos_euskadi
+import eventos_euskadi as ev
 
 # Se obtiene información sobre eventos en un mes
-info_eventos(2021, 1, 'eus')
+ev.info_eventos(2021, 1, 'eus')
 
 # Se descargan datos de eventos en un mes
-descargar(2021, 5, 'es', 'csv')
+ev.descargar(2021, 5, 'es', 'csv')
 
 # Se muestran dos gráficos con información sobre eventos en un año 
-datos_año(2021, True)
+ev.datos_año(2021, True)
 ```
 
 ![Alt text](https://github.com/naroabarrutia/eventos_euskadi/blob/main/ejemplos/datos_año.JPG?raw=true)
